@@ -8,7 +8,7 @@
           type="text" 
           size="large" 
           auto-complete="off" 
-          placeholder="账号"
+          placeholder="账号1"
         >
           <template #prefix><svg-icon icon-class="user" class="el-input__icon input-icon" /></template>
         </el-input>
@@ -19,7 +19,7 @@
           type="password"
           size="large" 
           auto-complete="off"
-          placeholder="密码"
+          placeholder="密码1"
           @keyup.enter="handleRegister"
         >
           <template #prefix><svg-icon icon-class="password" class="el-input__icon input-icon" /></template>
